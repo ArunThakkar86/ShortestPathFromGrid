@@ -1,0 +1,87 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf460
+{\fonttbl\f0\fnil\fcharset0 Menlo-Regular;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;\red255\green0\blue0;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf2 Read Me About TDDShortestPath\
+==============================\
+1.1\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf2 TDDShortestPath shows how to find shortest from grid or matrix of M rows and N columns.  The goal of this sample is very limited: it does demonstrate along with default values about how solution has been implemented to find shortest path from M X N matrix.\
+\
+The sample code is tested using XCTest (unit testing and UI testing).\
+Related testCase file contains testcases for unit test and UI test.\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf2 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf2 TDDShortestPath requires iPhone OS 9.0 or later, although the application code should also work on iPhone OS 7.x and iPhone OS 8.x.\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf2 \
+Packing List\
+------------\
+The sample contains the following items:\
+\
+o Read Me About TDDShortestPath.txt -- This file.\
+o Programming Challenge.pdf  -- More documentation on what to develop and its rules and regulations.\
+o TDDShortestPath.xcodeproj -- An Xcode project for the sample.\
+o Resources -- Images, and so on.\
+o Ancillary Code -- A directory full of code that's not directly relevant to the main function of this sample.\
+o GridViewController.[hm] -- A view controller that represents UI.\
+o \CocoaLigature0 TDDCustomCell.[hm]\cf0 \CocoaLigature1 -- A custom class to represent cell of collection view\cf2 \CocoaLigature0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf2 \CocoaLigature1 o \CocoaLigature0 TDDLabelGeneral.[hm]\cf0 \CocoaLigature1 -- A custom class to represent label\cf2 \CocoaLigature0 \
+\CocoaLigature1 o \CocoaLigature0 TDDLabelResult.[hm]\cf0 \CocoaLigature1 -- A custom class to represent label of result UI\cf2 \CocoaLigature0 \
+\CocoaLigature1 o \CocoaLigature0 TDDBtnBlue.[hm]\cf0 \CocoaLigature1 -- A custom class to represent button\cf2 \CocoaLigature0 \
+\CocoaLigature1 o \CocoaLigature0 TDDTextFieldGeneral.[hm]\cf0 \CocoaLigature1 -- A custom class to represent Textfield\cf2 \CocoaLigature0 \
+\CocoaLigature1 o \CocoaLigature0 TDDVertex.[hm]\cf0 \CocoaLigature1 -- A Model class\cf2 \CocoaLigature0 \
+\CocoaLigature1 o \CocoaLigature0 Main.storyboard \cf0 \CocoaLigature1 -- An UI component\cf2 \CocoaLigature0 \
+\CocoaLigature1 o \CocoaLigature0 TDDShortestPathManager.[hm]\cf0 \CocoaLigature1 -- A business logic handler class\
+\cf2 o \CocoaLigature0 TDDAppUtility\CocoaLigature1 .[hm] -- Utility class\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf2 o \CocoaLigature0 TDDColorManager\CocoaLigature1 .[hm] -- Color Manager class of whole application\
+o \CocoaLigature0 TDDFontManager\CocoaLigature1 .[hm] -- \cf0 Font Manager class of whole application\cf2 \
+\pard\tx529\pardeftab529\pardirnatural\partightenfactor0
+\cf2 \CocoaLigature0 TDDShortestPathTests.m \cf0 \CocoaLigature1 -- Test class for Unit testing, contains approx 10 test cases\cf2 \CocoaLigature0 \
+TDDShortestPathUITests.m \cf0 \CocoaLigature1 -- Test class for UI testing, contains approx 10 test cases\cf2 \CocoaLigature0 \
+\CocoaLigature1 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf2 Using the Sample\
+----------------\
+You can test the sample with \cf0 iPhone Device\cf2 , or with simulator.\
+\
+1. Run the program on device (or simulator).\
+\
+2. Enter value for Row - M (Min 1, Max 5).\
+\
+3. Enter value for Column - N (Min 5, Max 10).\
+\
+4. Click on Go button, it will display grid of M X N \
+\
+5. Fill all the cell of Grid with numeric.\
+\
+\cf3 IMPORTANT: In case running with simulator, make sure to enter numeric values only, in device it opens numeric keyboard and nothing to worry there.\cf2 \
+\
+6. Click on \'91Find Shortest Path\'92 button \
+\
+7. Get the result displayed on bottom\
+\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf3 IMPORTANT: Make sure to clear all previously entered values by clicking clear all before modifying any values or re finding the path.\cf2 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf2 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 Using the Sample \'97 Default \
+---------------------------\
+You can test the sample with iPhone Device, or with simulator.\
+\
+1. Run the program on device (or simulator).\
+\cf2 \
+2. Click on \'91default\'92 button - it will fill all required values i.e for rows, columns and grid.\
+\
+\cf0 3. Click on \'91Find Shortest Path\'92 button \
+\
+4. Get the result displayed on bottom\cf2 \
+}
